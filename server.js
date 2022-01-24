@@ -26,7 +26,7 @@ const UserRoute = require('./routes/User')
 app.use('/user',UserRoute)
 
 app.get('/', (req, res) => {
-    res.json({"message": "Hello Crud Node Express"});
+    res.json({"message": "Hello, This is Crud app using Node and Express. Here, we are sending data through Postman."});
 });
 
 app.listen(3000, () => {
